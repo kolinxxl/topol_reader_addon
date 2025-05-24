@@ -1,0 +1,13 @@
+name: "Topol Reader"
+version: "1.0.0"
+slug: "topol_reader"
+description: "Čte data z TopolWater a posílá je do Home Assistantu"
+startup: "services"
+boot: "auto"
+host_network: true  # umožní přímou komunikaci s lokální sítí
+privileged:
+  - NET_ADMIN
+options:
+  interval: 30
+schema:
+  interval: int
