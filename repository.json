@@ -1,3 +1,5 @@
-name: Topol Addons
-url: https://github.com/kolinxxl/topol_reader_addon
-maintainer: kolinx@gmail.com
+{
+  "name": "Topol Reader",
+  "url": "https://github.com/kolinxxl/topol_reader_addon",
+  "maintainer": "kolinxxl@gmail.com"
+}
